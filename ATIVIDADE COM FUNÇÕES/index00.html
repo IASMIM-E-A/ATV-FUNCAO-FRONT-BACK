@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>ATV-FUNCTION</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="CSS/main.css">
+    <script src="JS/main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins :wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <!-- QUESTÃO 1 -->
+        <section class="questao questao1">
+            <h2>1. Calcular Desconto</h2>
+            <label for="preco1">Preço Original (R$):</label>
+            <input type="number" id="preco1" placeholder="Ex: 500">
+            <label for="desconto1">Desconto (%):</label>
+            <input type="number" id="desconto1" placeholder="Ex: 50">
+            <button onclick="calcularDesconto()">Calcular</button>
+            <p id="resultado1"></p>
+        </section>
+
+        <!-- QUESTÃO 2 -->
+        <section class="questao questao2">
+            <h2>2. Calcular Salário Líquido</h2>
+            <label for="salarioBruto">Salário Bruto (R$):</label>
+            <input type="number" id="salarioBruto" placeholder="Ex: 2000">
+            <label for="descontoPercentual">Desconto (%):</label>
+            <input type="number" id="descontoPercentual" placeholder="Ex: 10">
+            <button onclick="calcularSalario()">Calcular</button>
+            <p id="resultado2"></p>
+        </section>
+
+        <!-- QUESTÃO 3 -->
+        <section class="questao questao3">
+            <h2>3. Verificar Idade</h2>
+            <label for="idade">Digite sua idade:</label>
+            <input type="number" id="idade" placeholder="Ex: 17">
+            <button onclick="verificarIdade()">Verificar</button>
+            <p id="resultado3"></p>
+        </section>
+
+        <!-- QUESTÃO 4 -->
+        <section class="questao questao4">
+            <h2>4. Categorizar Preço</h2>
+            <label for="precoProduto">Digite o preço do produto:</label>
+            <input type="number" id="precoProduto" placeholder="Ex: 75">
+            <button onclick="categorizarPreco()">Categorizar</button>
+            <p id="resultado4"></p>
+        </section>
+
+        <!-- QUESTÃO 5 -->
+        <section class="questao questao5">
+            <h2>5. Conversão de Temperatura</h2>
+            <label for="temperatura">Digite a temperatura:</label>
+            <input type="number" id="temperatura" placeholder="Ex: 30">
+            <label for="conversao">Escolha a conversão:</label>
+            <select id="conversao">
+                <option value="CEPAFA">Celsius para Fahrenheit</option>
+                <option value="FAPACE">Fahrenheit para Celsius</option>
+            </select>
+            <button onclick="converterTemperatura()">Converter</button>
+            <p id="resultado5"></p>
+        </section>
+
+        <!-- QUESTÃO 6 -->
+        <section class="questao questao6">
+            <h2>6. Número Primo</h2>
+            <label for="numero">Digite um número:</label>
+            <input type="number" id="numero" placeholder="Ex: 5">
+            <button onclick="verificarPrimo()">Verificar</button>
+            <p id="resultado6"></p>
+        </section>
+
+        <!-- QUESTÃO 7 -->
+        <section class="questao questao7">
+            <h2>7. Contar Vogais</h2>
+            <label>Digite uma frase:</label>
+            <input type="text" id="textoVogais">
+            <button onclick="contarVogais()">Contar Vogais</button>
+            <p id="resultado7"></p>
+        </section>
+
+        <!-- QUESTÃO 8 -->
+        <section class="questao questao8">
+            <h2>8. Filtrar Palavras</h2>
+            <label>Digite uma frase:</label>
+            <input type="text" id="textoFiltrar">
+            <button onclick="filtrarPalavras()">Filtrar Palavras</button>
+            <p id="resultado8"></p>
+        </section>
+
+        <!-- QUESTÃO 9 -->
+        <section class="questao questao9">
+            <h2>9. Gerador de Senha Aleatória</h2>
+            <label for="comprimento">Comprimento da senha:</label>
+            <input type="number" id="comprimento" placeholder="Ex: 8">
+            <button onclick="gerarSenha()">Gerar Senha</button>
+            <p id="senhaResultado"></p>
+        </section>
+
+        <!-- QUESTÃO 10 -->
+        <section class="questao questao10">
+            <h2>10. Calcular Média</h2>
+            <p>Digite números separados por vírgula:</p>
+            <input type="text" id="numerosInput" placeholder="Ex: 5, 7, 10">
+            <button onclick="exibirMedia()">Calcular Média</button>
+            <p id="resultado10"></p>
+        </section>
+
+    </div>
+</body>
+</html>

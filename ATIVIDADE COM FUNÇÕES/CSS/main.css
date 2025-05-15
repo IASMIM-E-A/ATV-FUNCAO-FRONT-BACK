@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #a81c1c;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.questao {
+    background-color: #ffffff; /* vermelho claro */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.552);
+    transition: transform 0.2s ease;
+}
+
+.questao:hover {
+    transform: scale(1.01);
+}
+
+.questao h2 {
+    color: #a81c1c;
+    margin-bottom: 10px;
+}
+
+.questao label {
+    display: block;
+    margin-top: 10px;
+    color: #a81c1c;
+    font-weight: bold;
+}
+
+.questao input[type="number"],
+.questao input[type="text"],
+.questao select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #a81c1c;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.questao button {
+    background-color: #a81c1c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.questao button:hover {
+    background-color: #a81c1c;
+}
+
+.questao p {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #a81c1c;
+}
